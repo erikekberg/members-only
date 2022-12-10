@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  form(action="/sign-up" method="post")
+    label(for="username") Username:
+    input(type="text" id="username" name="username")
+    label(for="first-name") First Name:
+    input(type="text" id="first-name" name="first-name")
+    label(for="last-name") Last Name:
+    input(type="text" id="last-name" name="last-name")
+    button Sign Up
